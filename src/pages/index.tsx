@@ -97,7 +97,7 @@ const VideoRecorder = () => {
 
             setVideoChunks(localVideoChunks);
         }
-    }, [stream]);
+    }, [stream, startLiveStream]);
 
     const onRecordingStop = useCallback(() => {
         // setPermission(false);

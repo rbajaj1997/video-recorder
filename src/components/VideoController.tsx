@@ -1,3 +1,6 @@
+// deps
+import { memo } from "react";
+
 // types
 import { RecordingStatus } from "@/types";
 // styles
@@ -35,4 +38,4 @@ const VideoControls = ({
     );
 };
 
-export default VideoControls;
+export default memo(VideoControls);
